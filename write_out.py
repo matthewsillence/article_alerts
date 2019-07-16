@@ -19,6 +19,6 @@ with open(F_OUT, 'w', encoding='utf-8', newline='\n') as f_out:
     for line in lines:
 # Create an if statement with the keyword of your choosing to extract just the lines containing that word
         if 'doctoral' in line:
-# Print the lines that conform to the if statement above
+# Print the lines that conform to the if statement above, setting each item on a new line
             f_out.write(line + '\n')
 # Now check the contents of your 'Emails_Relevant.txt' file, and you should find a list of the titles of articles and their URLs that were on the same line in the original messages
