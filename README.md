@@ -1,4 +1,4 @@
-Introduction
+<b>Introduction</b>
 This script is for use with Python 3. It can be run with a Python command line. There are several steps involved in extracting the relevant articles from a batch of Outlook e-mail messages (.msg format). These are outlined below.
 
 Step 1: Saving Outlook messages as a text file
