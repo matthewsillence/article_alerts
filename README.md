@@ -2,7 +2,7 @@
 <p>This script is for use with Python 3. It can be run with a Python command line. There are several steps involved in extracting the relevant articles from a batch of Outlook e-mail messages (.msg format). These are outlined below.</p>
 
 <h1>Step 1: Saving Outlook messages as a text file</h1>
-<p>From within the Microsoft Outlook desktop client, you can select messages from your inbox (or specific folder), and using 'save as' select '.txt' to save to a specific location on your device. Call the file 'Emails_Summary.txt'. For further details, see the following web page: https://support.office.com/en-us/article/save-a-message-as-a-file-4821bcd4-7687-4d6d-a486-b89a291a56e2</p>
+<p>From within the Microsoft Outlook desktop client, you can select messages from your inbox (or specific folder), and using 'save as' select '.txt' to save to a specific location on your device. Call the file 'Emails_Summary.txt'. Don't forget to save as 'UTF-8'. For further details, see the following web page: https://support.office.com/en-us/article/save-a-message-as-a-file-4821bcd4-7687-4d6d-a486-b89a291a56e2</p>
 
 <h1>Step 2: Creating your target file</h1>
 <p>Now that you have the source file, create a new (empty) text file in the same directory called 'Emails_Relevant.txt'.</p>
